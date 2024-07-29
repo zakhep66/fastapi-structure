@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-structure"
+version = "0.1.0"
+description = ""
+authors = ["mikhael <sur.mikhael@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_structure"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+ipython = "^8.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
